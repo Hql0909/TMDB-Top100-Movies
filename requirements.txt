@@ -1,0 +1,5 @@
+# TMDB 前 100 部电影爬虫 —— 依赖清单
+# 安装:pip install -r requirements.txt
+
+requests>=2.31.0
+lxml>=5.0.0

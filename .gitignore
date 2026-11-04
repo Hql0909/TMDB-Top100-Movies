@@ -1,0 +1,31 @@
+# ===== 本项目只保留爬虫主程序与文档 =====
+/*.py
+!/TMBD爬虫_前100部电影.py
+
+# 爬取结果数据(运行时生成,不入库)
+*.csv
+
+# 页面存档
+/html/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 系统
+.DS_Store
+Thumbs.db
+
+# 密钥
+.env
